@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* border: 1px solid; */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: hsla(0, 3%, 14%, 0.233);
+}
+
+.container{
+  /* border: 1px solid; */
+  padding: 10px;
+  border-radius: 10px;
+  background-color: hsl(0, 9%, 86%);
+  box-shadow: 4px 4px hsla(0, 2%, 48%, 0.5);
+  font-size: 3.9rem;
+  font-weight: bold;
+  color: hsla(0, 4%, 16%, 0.952);
+}
+
+
