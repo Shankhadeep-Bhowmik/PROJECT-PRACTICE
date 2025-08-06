@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  border: 1px solid;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+  border: 1px solid;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 0;
+}
+.myH1{
+  color: hsla(0, 1%, 18%, 0.747);
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+.chooseTemp{
+  /* border: 1px solid; */
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 2.5px;
+  display: flex;
+  gap: 25px;  
+}
+label{
+  margin-left: -24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: hsla(0, 2%, 10%, 0.959);
+}
+input[type="text"]{
+  margin-bottom: 15px;
+  min-width: 322px;
+  font-size: 1.4em;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.convert{
+  font-size: 1.2rem;
+  padding: 7px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: hsla(212, 100%, 50%, 0.945);
+  transition: 0.3s ease-in;
+  color: white;
+  cursor: pointer;
+}
+.convert:hover{
+  background-color: hsl(214, 96%, 40%);
+}

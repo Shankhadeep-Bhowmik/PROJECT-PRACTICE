@@ -10,7 +10,29 @@
     <title>Temperature Converter</title>
   </head>
   <body>
-    
+    <div class="container">
+      <h1 class="myH1">Temperature Converter</h1>
+      <div class="chooseTemp">
+        <input type="radio" name="temp" id="celsiusBtn">
+        <label for="celsiusBtn">Celsius</label>
+        <input type="radio" name="temp" id="fahrenheitBtn">
+        <label for="fahrenheitBtn">Fahrenheit</label>
+        <input type="radio" name="temp" id="kelvinBtn">
+        <label for="kelvinBtn">Kelvin</label>
+      </div>
+      <input type="text" id="inputValue">
+
+      <div class="chooseTemp">
+        <input type="radio" name="result" id="celsiusResult">
+        <label for="celsiusResult">Celsius</label>
+        <input type="radio" name="result" id="fahrenheitResult">
+        <label for="fahrenheitResult">Fahrenheit</label>
+        <input type="radio" name="result" id="kelvinResult">
+        <label for="kelvinResult">Kelvin</label>
+      </div>
+      <input type="text" id="display" value="" readonly>
+      <button onclick="convertTemperature()" class="convert" id="convertBtn">Convert</button>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
